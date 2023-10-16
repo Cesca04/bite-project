@@ -184,14 +184,27 @@ nav{
     background:url(../img/apple-logo-24.png);
     background-size: cover;
     border-radius: initial;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     margin: 10px 10px!important;
 }
  
 
 
   /* portfolio */
+.portfolio-hero-page{
+    background:linear-gradient( rgba 255, 255, 255, 0.8 rgba 255, 255, 255, 0.8);
+    background-image: url(../img/about-us/bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+}
+
+
   .text{
     position: absolute;
     width: 100%;
