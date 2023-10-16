@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bite</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- google-font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;300;400;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;0,800;1,400;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- CDN for Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Boxicons cdn -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link Swiper's CSS cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- normal css link -->
+    <link rel="stylesheet" href="./css-folder/style.css">
+  </head>
+  <body class="open-sans" data-aos-easing="ease-in-out" data-aos-duration="5000" data-aos-delay="0">
+    <!-- Header -->
+    <header>
+      <div class=" ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+          <div class="container">
+            <a class="navbar-brand fw-bolder garamond fs-1 fst-italic" href="./home.html">BITE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+              <ul class="navbar-nav mx-lg-5 mb-2 mb-lg-0 gap-lg-5 raleway fw-bold ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <form class="d-flex justify-content-center align-items-center gap-4" role="search">
+                <input class="form-control me-2 fs-5 border-0 ms-lg-5" type="search" placeholder="Search" aria-label="Search">
+                <a href="" class="text-decoration-none text-black"><i class='bx bx-search fs-1'></i></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End of header -->
+    <!-- Hero section -->
+    <section class="hero-section-bg fd-flex flex-column " data-aos="fade-up" data-aos-delay="100">
+      <div class="hero-section-content position-absolute text-center ms-5" >
+        <div class="hero-page-text d-flex justify-content-start align-items-center flex-column text-center py-5">
+          <h1 class="text-center  display-3 fw-bolder garamond">Anything <i>but </i>but routine.</h1>
+          <h4 class=" open-sans text-center ">Effective, eco-friendly daily essentials made with clean ingredients.</h4>
+          <div class="mb-5 mt-3">
+            <button class="btn button-bg-col text-white px-5 py-3 fw-bold border-0 rounded-pill" type="submit">Shop All</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of hero section -->
+    <!-- Main page -->
+    <main>
+      <section id="oral-care" class="light-bg-color"  data-aos="fade-up" data-aos-delay="300">
+        <div class="container py-5 h-100 ">
+          <div class="team-heading text-center pt-5">
+            <h1 class="garamond display-4 sec-text-col">PRODUCTS</h1>
+            <p class="raleway fs-5 ">Available Products</p>
+          </div> 
+          <div class="row mb-5">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="product-container card border-0">
+                  <div class="img-box img-parent position-relative">
+                      <img src="./img/oral-care/fouth.webp" class="card-img-top" alt="...">
+                      <div class=" button-container d-flex justify-content-center flex-column align-items-center gap-3">
+                        <div class="oral-care-button">
+                          <button id=" oral-care-button " class=" btn bg-white fw-bold border-0 rounded-pill text-black fs-6" type="submit">Learn More</button>
+                        </div>
+                        <div class="oral-care-button">
+                          <button id="oral-care-button" class=" btn bg-black fw-bold border-0 rounded-pill text-white" type="submit">&nbsp&nbspAdd Cart&nbsp</button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="text-container d-flex justify-content-between ">
+                        <h6 class="garamond fw-bolder">Toothpaste Bits</h6>
+                        <h6>$32</h6>
+                    </div>
+                    <div class="text-container d-flex justify-content-between ">
+                        <h6 class="fst-italic garamond fw-bolder">Mint</h6>
+                        <h6 class="text-decoration-line-through">$40</h6>
+                    </div>
+                    <div class="rating d-flex gap-1 pt-3">
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <span class="">20k Reviews</span>
+                    </div>
+                     
+                  </div>
+              </div>  
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="product-container card  border-0">
+                  <div class="img-box img-parent position-relative">
+                      <img src="./img/oral-care/third.webp" class="card-img-top" alt="...">
+                      <div class=" button-container d-flex justify-content-center flex-column align-items-center gap-3">
+                        <div class="oral-care-button">
+                          <button id="oral-care-button" class=" btn bg-white fw-bold border-0 rounded-pill text-black" type="submit">Learn More</button>
+                        </div>
+                        <div class="oral-care-button">
+                          <button id="oral-care-button" class=" btn bg-black fw-bold border-0 rounded-pill text-white" type="submit">&nbsp&nbspAdd Cart&nbsp</button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="text-container d-flex justify-content-between ">
+                        <h6 class="garamond fw-bolder">Toothpaste Bits</h6>
+                        <h6>$32</h6>
+                    </div>
+                    <div class="text-container d-flex justify-content-between ">
+                        <h6 class="fst-italic garamond fw-bolder">Mint</h6>
+                        <h6 class="text-decoration-line-through">$40</h6>
+                    </div>
+                    <div class="rating d-flex gap-1 pt-3">
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <span>20,677 Reviews</span>
+                    </div>
+                     
+                  </div>
+              </div>  
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="product-container card  border-0">
+                  <div class="img-box img-parent position-relative">
+                      <img src="./img/oral-care/fouth.webp" class="card-img-top" alt="...">
+                      <div class=" button-container d-flex justify-content-center flex-column align-items-center gap-3">
+                        <div class="oral-care-button">
+                          <button id="oral-care-button" class=" btn bg-white fw-bold border-0 rounded-pill text-black" type="submit">Learn More</button>
+                        </div>
+                        <div class="oral-care-button">
+                          <button id="oral-care-button" class=" btn bg-black fw-bold border-0 rounded-pill text-white" type="submit">&nbsp&nbspAdd Cart&nbsp</button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="text-container d-flex justify-content-between ">
+                        <h6 class="garamond fw-bolder">Toothpaste Bits</h6>
+                        <h6>$32</h6>
+                    </div>
+                    <div class="text-container d-flex justify-content-between ">
+                        <h6 class="fst-italic garamond fw-bolder">Mint</h6>
+                        <h6 class="text-decoration-line-through">$40</h6>
+                    </div>
+                    <div class="rating d-flex gap-1 pt-3">
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <span>20,677 Reviews</span>
+                    </div>
+                     
+                  </div>
+              </div>  
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="product-container card  border-0">
+                  <div class="img-box img-parent position-relative">
+                      <img src="./img/oral-care/third.webp" class="card-img-top" alt="...">
+                      <div class=" button-container d-flex justify-content-center flex-column align-items-center gap-3">
+                        <div class="oral-care-button">
+                          <button id="oral-care-button" class=" btn bg-white fw-bold border-0 rounded-pill text-black" type="submit">Learn More</button>
+                        </div>
+                        <div class="oral-care-button">
+                          <button id="oral-care-button" class=" btn bg-black fw-bold border-0 rounded-pill text-white" type="submit">&nbsp&nbspAdd Cart&nbsp</button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-body text-center">
+                    <div class="text-container d-flex justify-content-between ">
+                        <h6 class="garamond fw-bolder">Toothpaste Bits</h6>
+                        <h6>$32</h6>
+                    </div>
+                    <div class="text-container d-flex justify-content-between ">
+                        <h6 class="fst-italic garamond fw-bolder">Mint</h6>
+                        <h6 class="text-decoration-line-through">$40</h6>
+                    </div>
+                    <div class="rating d-flex gap-1 pt-3">
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <i class='bx bxs-star fs-5'></i>
+                      <span>20,677 Reviews</span>
+                    </div>
+                     
+                  </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-us" class=" " data-aos="zoom-in-up" data-aos-delay="500">
+        <div class="about-us-page m-auto d-flex justify-content-center align-items-center">
+          <div class="about-us-text text-center">
+            <h1 class="display-1 garamond fw-bolder">Bite stands for</h1>
+            <h1  class="display-1 garamond fw-bolder fst-italic">Because It's The Earth</h1>
+            <span class="fs-4 raleway ">We make daily routines better for your body and</span><br>
+            <span class="fs-4 raleway ">better for our planet — because small changes can</span><br>
+            <span class="fs-4 raleway ">make a big impact.</span><br>
+            <button class="btn bg-black border-0 rounded-pill text-white px-5 py-3 mt-3 fw-bold" type="submit">About Us</button>
+          </div>
+  
+        </div>
+      </section>
+      <section id="purecounter" class="light-bg-color" data-aos="fade-left" data-aos-delay="500">
+        <div class="container py-4">
+          <div class="row p-3">
+            <div class="happy-client col-lg-3 col-md-4 col-sm-6 d-md-flex  justify-content-center">
+              <div class="text-center">
+                <span class="purecounter display-4 fw-bolder sec-text-col" data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2">0</span>
+                <p class="count-text-col raleway">Happy Customers</p>
+              </div>
+            </div> 
+            <div class="projects col-lg-3 col-md-4  d-md-flex justify-content-center">
+              <div class="text-center">
+                <span class="purecounter display-4 fw-bolder sec-text-col" data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2">0</span>
+                <p class="count-text-col raleway">Products</p>
+              </div>
+            </div>
+            <div class="yr-of-exp col-lg-3 col-md-4 col-sm-6 d-md-flex justify-content-center">
+              <div class="text-center">
+                <span class="purecounter display-4 fw-bolder sec-text-col" data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="2">0</span>
+                <p class="count-text-col raleway"> Number of Years</p>
+              </div>
+            </div>
+            <div class="awards col-lg-3 col-md-4 d-md-flex justify-content-center">
+              <div class="text-center">
+                <span class="purecounter display-4 fw-bolder sec-text-col" data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="2">0</span>
+                <p class="count-text-col raleway">Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="swipper-page my-5 py-5">
+        <div class="container-fluid my-5">
+          <div class="swiper sample-slider my-5">
+            <div class="swiper-wrapper my-5">
+                <div class="swiper-slide"><p class="garamond fst-italic display-4 text-center py-5">"[Bite] is a on a mission to become the world’s most sustainable oral care company by completely revolutionizing the industry."</p></div>
+                <div class="swiper-slide"><p class="garamond fst-italic display-4 text-center py-5">"Quit your tube of toothpaste and try these waste-free tablets."</p></div>
+                <div class="swiper-slide"><p class="garamond fst-italic display-4 text-center py-5">"These toothpaste tablets could replace the 1 billion toothpaste tubes we throw away annually."</p></div>
+                <div class="swiper-slide"><p class="garamond fst-italic display-4 text-center py-5">"Fly in Style - Spill proof your makeup bag."</p></div>
+                <div class="swiper-slide"><p class="garamond fst-italic display-4 text-center py-5">"Like a breath of fresh air!"</p></div>
+                <div class="swiper-slide"><p class="garamond fst-italic display-4 text-center py-5">"Buh-bye, wasteful plastic tubes!"</p></div>
+                <div class="swiper-slide"><p class="garamond fst-italic display-4 text-center py-5">"These inventions are saving the Earth."</p></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <section id="footer" data-aos="zoom-in-down" data-aos-delay="500">
+      <!-- Footer Start -->
+      <div class="container-fluid px-5 ">
+        <div class="row">
+          <div class="col-lg-6 mb-4 " >
+            <h1 class="fw-bold garamond display-5 mb-4 text-md-center text-sm-center">Give your inbox a <i class="fw-lighter">refresh.</i></h1>
+            <h4 class="raleway mb-3 text-lg-left w-lg-75 text-md-center">10% off your first order when you sign up for our plastic-free and spam-free emails.</h4>
+          </div>
+          <div class="col-lg-6 mb-4 pt-5 text-md-center " >
+            <span class="pt-5 w-100 mb-5 " >
+              <input type="text" placeholder="Enter email address" class="px-3 py-2 w-50 garamond me-4 border-0"><button class="px-4 py-2 text-white bg-black">Subscribe</button>
+            <div class="d-flex pt-5 gap-3 justify-content-md-center">
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-twitter display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-facebook display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-instagram display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://www.linkedin.com/in/francescaezih-chiekwugo-aca-a69063221"><i class='bx bxl-linkedin display-5'></i></a>
+            </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class=" px-3 border border-black border-1 opacity-75 mb-5"></div>
+      <div class="container-fluid px-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row w-100">
+              <div class="col-lg-4 col-md-6 ">
+                <h1 class="py-3 poppins">SHOP</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">All Products</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Oral Care</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Personal Care</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Bundles</p></a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h1 class="py-3 poppins">ABOUT</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">Ingredients</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Sustainability</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">About Us</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">FAQ</p></a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h1 class="py-3 poppins">MORE</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">Wholesale</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Store Locator</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black"></p></a>
+                <a href="" class="text-decoration-none"><p class="text-black"></p></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6 d-flex justify-content-between align-items-center py-5">
+            <a href=""><i class='bx bx-certification display-1 text-black'></i></a>
+            <a href=""><i class='bx bx-buildings display-1 text-black'></i></a>
+            <a href=""><i class='bx bxl-mailchimp display-1 text-black'></i></a>
+            <a href=""><i class='bx bx-calendar display-1 text-black'></i></a>
+          </div>
+        </div>
+      </div>
+      <div class=" px-3 border border-black border-1 opacity-75 mb-5"></div>
+       <div class="container text-center">
+        <h2 class="raleway fs-5">© 2023 Bite. All Rights Reserved.</h2>
+        <a href=" " class="text-decoration-none text-black mb-5">hello@bitetoothpastebits.com</a>
+        <div class=" raleway d-flex justify-content-between align-items-center my-5">
+          <a href="" class="text-decoration-none text-black"><p>Privacy policy</p></a>
+          <a href="" class="text-decoration-none text-black"><p>Terms of Service</p></a>
+          <a href="" class="text-decoration-none text-black"><p>Shopping policy</p></a>
+        </div>
+       </div>
+      <!-- Footer End -->
+    </section>
+    <!-- End of main page -->
+    <section class="libraries">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+      crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+          new PureCounter();
+      </script>
+      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    
+        <script src="./js-folder/swiper.js"></script>
+    </section>
+  </body>
+</html>

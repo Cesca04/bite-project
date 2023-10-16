@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bite</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- google-font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;300;400;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;0,800;1,400;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- CDN for Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Boxicons cdn -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link Swiper's CSS cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- normal css link -->
+    <link rel="stylesheet" href="./css-folder/style.css">
+  </head>
+  <body class="open-sans" data-aos-easing="ease-in-out" data-aos-duration="5000" data-aos-delay="0">
+    <!-- Header -->
+    <header>
+      <div class=" ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+          <div class="container ">
+            <a class="navbar-brand fw-bolder garamond fs-1 fst-italic" href="./home.html">BITE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+              <ul class="navbar-nav mx-lg-5 mb-2 mb-lg-0 gap-lg-5 raleway fw-bold  gap-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <form class="d-flex justify-content-center align-items-center gap-4" role="search">
+                <input class="form-control me-2 fs-5 border-0 ms-lg-5" type="search" placeholder="Search" aria-label="Search">
+                <a href="" class="text-decoration-none text-black"><i class='bx bx-search fs-1'></i></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+     </div>
+    </header>
+    <section class="hero-section-bg fd-flex flex-column " data-aos="fade-up" data-aos-delay="100">
+      <div class="hero-section-content position-absolute text-center ms-5" >
+        <div class="hero-page-text d-flex justify-content-start align-items-center flex-column text-center py-5">
+          <h1 class="text-center  display-3 fw-bolder garamond">Anything <i>but </i>but routine.</h1>
+          <h4 class=" open-sans text-center ">Effective, eco-friendly daily essentials made with clean ingredients.</h4>
+          <div class="mb-5 mt-3">
+            <button class="btn button-bg-col text-white px-5 py-3 fw-bold border-0 rounded-pill" type="submit">Shop All</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+        <section id="portfolio">
+          <div class="container-fluid p-5">
+              <div class="content pt-5">
+                  <h3 class="garamond sec-text-col text-md-center poppins fa-2x pt-4 display-4">Available Products</h3>
+                  <p class="raleway text-center uni-text-col fs-6 mb-5">Check out our wonderful products</p>
+              </div>
+              <div class="row " data-masonry='{"percentPosition": true}'>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/about-us/left image.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/fourth-box/fifth.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/fourth-box/deodrant.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/fifth-box/gel.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/ist-box/-brush.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/ist-box/bottle.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/ist-box/hand-bottle.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/ist-box/tablets.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/nd-box/balm.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/nd-box/fourth.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/oral-care/third.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/oral-care/fouth.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/oral-care/first.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card card-eff border-0">
+                      <img src="./img/hero-page-img/rd-box/fifth.webp" alt="" class="w-100 h-100">
+                      <div class="text text-white">
+                          <p><a href="" class="text-white fs-5 text-decoration-none garamond">PRODUCT</a></p>
+                          <p><a href="" class="text-white text-decoration-none raleway">Shop Now</a></p>
+                          <div class="d-flex gap-3">
+                            <i class='bx bx-link fs-4'></i>
+                            <i class='bx bx-plus fs-4'></i>
+                          </div>
+                      </div>
+                  </div>
+                  </div>  
+                  
+              </div>
+          </div>
+        </section>
+        <section id="customer-care-team">
+          <div class="teams team-container mb-5">
+              <div class="team-heading text-center pt-5">
+                  <h1 class="sec-text-col garamond fw-bold">CUSTOMER CARE TEAM</h1>
+                  <p class="uni-text-col raleway fs-5 mb-5">Meet our magic Customer-care team members</p>
+              </div>
+              <div class="container px-5">
+                  <div class="row">
+                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                          <div class="team-member card  border-0">
+                              <div class="img-box img-parent position-relative">
+                                  <img src="./img/others/team-1.jpg" class="card-img-top" alt="...">
+                                  <div class="social-icons d-flex justify-content-center gap-5 p-2">
+                                      <a href="" class="text-decoration-none sec-text-col"><i class="ri-facebook-circle-fill"></i></a>
+                                      <a href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw==" class="text-decoration-none sec-text-col"><i class="ri-discord-fill"></i></a>
+                                      <a href="https://www.linkedin.com/in/francescaezih-chiekwugo-aca-a69063221" class="text-decoration-none sec-text-col"><i class="ri-linkedin-box-fill"></i></a>
+                                      <a href=""  class="text-decoration-none sec-text-col"><i class="ri-whatsapp-fill"></i></a>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h5 class="card-title fw-bold sec-text-col">Williams Hills</h5>
+                                  <p class="card-text raleway uni-text-col">Head of Operation</p>
+                              </div>
+                          </div>  
+                      </div>
+                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                          <div class="team-member card  border-0">
+                              <div class="img-box img-parent position-relative">
+                                  <img src="./img/others/team-2.jpg" class="card-img-top" alt="...">
+                                  <div class="social-icons d-flex justify-content-center gap-5 p-2">
+                                      <a href="" class="text-decoration-none sec-text-col"><i class="ri-facebook-circle-fill"></i></a>
+                                      <a href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw==" class="text-decoration-none sec-text-col"><i class="ri-discord-fill"></i></a>
+                                      <a href="https://www.linkedin.com/in/francescaezih-chiekwugo-aca-a69063221" class="text-decoration-none sec-text-col"><i class="ri-linkedin-box-fill"></i></a>
+                                      <a href=""  class="text-decoration-none sec-text-col"><i class="ri-whatsapp-fill"></i></a>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h5 class="card-title fw-bold sec-text-col">Frances Cesca</h5>
+                                  <p class="card-text raleway uni-text-col">Team member</p>
+                              </div>
+                          </div>  
+                      </div>
+                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                          <div class="team-member card  border-0">
+                              <div class="img-box img-parent position-relative">
+                                  <img src="./img/others/team-3.jpg" class="card-img-top" alt="...">
+                                  <div class="social-icons d-flex justify-content-center gap-5 p-2">
+                                      <a href="" class="text-decoration-none sec-text-col"><i class="ri-facebook-circle-fill"></i></a>
+                                      <a href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw==" class="text-decoration-none sec-text-col"><i class="ri-discord-fill"></i></a>
+                                      <a href="https://www.linkedin.com/in/francescaezih-chiekwugo-aca-a69063221" class="text-decoration-none sec-text-col"><i class="ri-linkedin-box-fill"></i></a>
+                                      <a href=""  class="text-decoration-none sec-text-col"><i class="ri-whatsapp-fill"></i></a>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h5 class="card-title fw-bold sec-text-col">Joshua Ezih</h5>
+                                  <p class="card-text raleway uni-text-col">Team Member</p>
+                              </div>
+                          </div>  
+                      </div>
+                      <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                          <div class="team-member card  border-0">
+                              <div class="img-box img-parent position-relative">
+                                  <img src="./img/others/team-1.jpg" class="card-img-top" alt="...">
+                                  <div class="social-icons d-flex justify-content-center gap-5 p-2">
+                                      <a href="" class="text-decoration-none sec-text-col"><i class="ri-facebook-circle-fill"></i></a>
+                                      <a href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw==" class="text-decoration-none sec-text-col"><i class="ri-discord-fill"></i></a>
+                                      <a href="https://www.linkedin.com/in/francescaezih-chiekwugo-aca-a69063221" class="text-decoration-none sec-text-col"><i class="ri-linkedin-box-fill"></i></a>
+                                      <a href=""  class="text-decoration-none sec-text-col"><i class="ri-whatsapp-fill"></i></a>
+                                  </div>
+                              </div>
+                              <div class="card-body text-center">
+                                  <h5 class="card-title fw-bold sec-text-col">Grant Thorn</h5>
+                                  <p class="card-text raleway uni-text-col">Team Member</p>
+                              </div>
+                          </div>  
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <section>
+          <div class="frequent-questions container py-5">
+              <h4 class="text-center sec-text-col fw-bold garamond fw-bold">FREQUENTLY ASKED QUESTIONS</h4>
+              <div class="pb-3 bg-white">
+                  <div class="accordion mt-4  team-container p-5" id="accordionExample">
+                      <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How do I get started in the Tech Industry?
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the way to get started. </strong>A career in tech is a career without boundaries. 
+                            From web development to product design to project management to app development, the range of job roles and opportunities in the tech ecosystem is huge.
+                            You might think you're not good enough to have a career in tech  but give yourself a chance. You can do it.
+                            The truth is you, don't have to be a genius to work in technology. And in this article, I'll explain how you can kickstart your own career in tech.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              What is the main purpose of technology?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Technology is used to make life easier.</strong> It can be used to accomplish tasks faster or more efficiently. For example, technology can be used to improve communication or make information more accessible.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              How is technology affecting society?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Technology has also made it easier for us to get information. </strong> Technology is an ever-growing part of society. It seems like every day there is a new technological advancement that changes the way we live. Cell phones, the internet, and social media are just a few examples of how technology has changed the way we communicate.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Do you think I can fit into the tech space without prior knowledge of tech and business administration?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Of course you can fit in just perfect! You don’t need prior knowledge of tech or business administration at all.  </strong> Perhaps reading stories by students who have taken our courses can help in convincing you more. Go a step further and take a great course on business analysis. Taking this course will make you a great fit in any company as a business analyst.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item mb-3 border-0">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              How can someone with a legal background benefit from the tech industry?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Technology has also made it easier for us to get information. </strong> As someone with a legal background, you already have the soft skills a  business analyst needs. A business analyst must have research, presentation and negotiation skills. You just need to build yourself on the hard skills. 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+          </div>
+        </section>
+       
+    </main>
+    <section id="footer">
+      <!-- Footer Start -->
+      <div class="container-fluid px-5 ">
+        <div class="row">
+          <div class="col-lg-6 mb-4 " >
+            <h1 class="fw-bold garamond display-5 mb-4 text-md-center text-sm-center">Give your inbox a <i class="fw-lighter">refresh.</i></h1>
+            <h4 class="raleway mb-3 text-lg-left w-lg-75 text-md-center">10% off your first order when you sign up for our plastic-free and spam-free emails.</h4>
+          </div>
+          <div class="col-lg-6 mb-4 pt-5 text-md-center " >
+            <span class="pt-5 w-100 mb-5 " >
+              <input type="text" placeholder="Enter email address" class="px-3 py-2 w-50 garamond me-4 border-0"><button class="px-4 py-2 text-white bg-black">Subscribe</button>
+            <div class="d-flex pt-5 gap-3 justify-content-md-center">
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-twitter display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-facebook display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-instagram display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://www.linkedin.com/in/francescaezih-chiekwugo-aca-a69063221"><i class='bx bxl-linkedin display-5'></i></a>
+            </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class=" px-3 border border-black border-1 opacity-75 mb-5"></div>
+      <div class="container-fluid px-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row w-100">
+              <div class="col-lg-4 col-md-6 ">
+                <h1 class="py-3 poppins">SHOP</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">All Products</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Oral Care</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Personal Care</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Bundles</p></a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h1 class="py-3 poppins">ABOUT</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">Ingredients</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Sustainability</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">About Us</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">FAQ</p></a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h1 class="py-3 poppins">MORE</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">Wholesale</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Store Locator</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black"></p></a>
+                <a href="" class="text-decoration-none"><p class="text-black"></p></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6 d-flex justify-content-between align-items-center py-5">
+            <a href=""><i class='bx bx-certification display-1 text-black'></i></a>
+            <a href=""><i class='bx bx-buildings display-1 text-black'></i></a>
+            <a href=""><i class='bx bxl-mailchimp display-1 text-black'></i></a>
+            <a href=""><i class='bx bx-calendar display-1 text-black'></i></a>
+          </div>
+        </div>
+      </div>
+      <div class=" px-3 border border-black border-1 opacity-75 mb-5"></div>
+       <div class="container text-center">
+        <h2 class="raleway fs-5">© 2023 Bite. All Rights Reserved.</h2>
+        <a href=" " class="text-decoration-none text-black mb-5">hello@bitetoothpastebits.com</a>
+        <div class=" raleway d-flex justify-content-between align-items-center my-5">
+          <a href="" class="text-decoration-none text-black"><p>Privacy policy</p></a>
+          <a href="" class="text-decoration-none text-black"><p>Terms of Service</p></a>
+          <a href="" class="text-decoration-none text-black"><p>Shopping policy</p></a>
+        </div>
+       </div>
+      <!-- Footer End -->
+    </section>
+    <section class="libraries">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+      crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+          new PureCounter();
+      </script>
+      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    
+        <script src="./js-folder/swiper.js"></script>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* global font */
+.open-sans{
+    font-family: 'Open Sans', sans-serif !important;  
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif !important;
+    
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif !important;
+}
+.garamond{
+    font-family: 'EB Garamond', serif !important;
+}
+
+
+
+/* global color */
+
+.button-bg-col{
+    background-color: #131313 !important;
+
+}
+
+.pri-text-col{
+    color: #2487ce !important;
+}
+
+.pri-bg-col{
+    background-color: #2487ce !important;
+}
+.pri-btn-col{
+    border-color: #2487ce !important;
+}
+
+.pri-ol-col{
+    border-color: white!important;
+    
+}
+
+.sec-text-col{
+    color: #124265 !important;
+}
+.sec-bg-col{
+    background-color: #124265 !important;
+}
+.sec-btn-col{
+    border-color: #124265 !important; 
+}
+
+.ter-text-col{
+    color: #5e5e5e !important;
+}
+
+.uni-text-col{
+    color: #919191 !important;
+    font-size: 0.859em;
+}
+
+.count-text-col{
+    color: #1e6ca6 !important; 
+    font-size: 0.8em;
+}
+
+.light-bg-color{
+    background-color: #f8fbfe !important;
+
+}
+
+.card-text-col{
+    color: #444444 !important;
+}
+
+.test-quote-col{
+    color: #c9e3f5 !important;
+}
+
+.test-bg-col{
+    background-color: #f3f9fd !important;
+}
+.test-text-col{
+    color: #999 !important;
+}
+
+
+nav{
+    z-index: 1000;
+}
+
+
+.hero-section-bg{
+    background:linear-gradient( rgba 255, 255, 255, 0.8 rgba 255, 255, 255, 0.8);
+    background-image: url(../img/hero-page-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+}
+
+.about-us-page{
+    background-image: url(./img/about-us/bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 90%;
+}
+
+#dentist{
+    width: 90%;
+    margin: auto;
+}
+.dentist-left-text{
+    bottom: 0;
+}
+
+.dentist-left-bg{
+    background-image: url(./img/about-us/left\ image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.dentist-right-bg{
+    background-image: url(./img/about-us/right\ image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ /* oral care section */
+ 
+     
+ .product-container{
+     box-shadow: 0px 2px i5px rgba(18, 56,101,0.08);
+ }
+ 
+ .button-container{
+     position: absolute;
+     bottom: 1.5em;
+     width: 100%;
+     opacity: 0;
+     transition: all ease-in-out .5s;
+ }
+ 
+ .product-container:hover .button-container{
+     opacity: 1;
+ }
+
+
+
+ #oral-care-button{
+    padding: 1em 6em !important;
+    font-size: .8em;
+ }
+ #oral{
+    padding: 1em 6em !important;
+    font-size: .8em !important;
+ }
+
+
+ .sample-slider{
+    width:70%;
+}
+.sample-slider img{
+    width: 100%;
+}
+.sample-slider .swiper-pagination-bullet{
+    background:url(../img/apple-logo-24.png);
+    background-size: cover;
+    border-radius: initial;
+    width: 10px;
+    height: 10px;
+    margin: 10px 10px!important;
+}
+ 
+
+
+  /* portfolio */
+  .text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2487ce94;
+    flex-direction: column;
+    transform: scale(0.7);
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    opacity: 0;
+  }
+
+.card{
+    /* transition: all ease-in-out 0.5s; */
+}
+  .card-eff:hover .text{
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .card-eff::before{
+    content: "";
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 3em;
+    height: 3em;
+    border-top: .2em solid white;
+    border-left: .2em solid white;
+    z-index: 50;
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+  }
+  .card-eff::after{
+    content: "";
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    width: 3em;
+    height: 3em;
+    opacity: 0;
+    border-bottom: .2em solid white;
+    border-right: .2em solid white;
+    z-index: 50;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .card-eff:hover:after, .card-eff:hover:before {
+    opacity: 1;
+  }
+
+  /* teams */
+  .team-container{
+   background-color: #f0f6ff;
+   padding: 2em 0em;
+  }
+    
+.team-member{
+    box-shadow: 0px 2px i5px rgba(18, 56,101,0.08);
+}
+
+.social-icons{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0.452);
+    opacity: 0;
+    transition: all ease-in-out .5s;
+    
+}
+
+.team-member:hover .social-icons{
+    opacity: 1;
+}
+
+.card-zoom, .client-card{
+    transition: all ease-in-out 0.5s;
+}
+
+.card-zoom:hover{
+    transform: scale(1.09);
+}
+
+.card-zoom:hover h5{
+    color: #2487ce !important;
+    cursor: pointer;
+}
+
+.section-bg{
+    background:linear-gradient( rgba 255, 255, 255, 0.8 rgba 255, 255, 255, 0.8);
+    background-image: url(./image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* about styling */
+.about-p-font{
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.white-text{
+    background-color: white;
+}
+
+/* swipper css */
+.swiper {
+    width: 100%;
+    height: auto;
+  }

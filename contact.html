@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bite</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- google-font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;300;400;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;0,800;1,400;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- CDN for Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Boxicons cdn -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link Swiper's CSS cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- normal css link -->
+    <link rel="stylesheet" href="./css-folder/style.css">
+  </head>
+  <body class="open-sans" data-aos-easing="ease-in-out" data-aos-duration="5000" data-aos-delay="0">
+    <!-- Header -->
+    <header>
+      <div class=" ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+          <div class="container ">
+            <a class="navbar-brand fw-bolder garamond fs-1 fst-italic" href="./home.html">BITE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+              <ul class="navbar-nav mx-lg-5 mb-2 mb-lg-0 gap-lg-5 raleway fw-bold  gap-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <form class="d-flex justify-content-center align-items-center gap-4" role="search">
+                <input class="form-control me-2 fs-5 border-0 ms-lg-5" type="search" placeholder="Search" aria-label="Search">
+                <a href="" class="text-decoration-none text-black"><i class='bx bx-search fs-1'></i></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+     </div>
+    </header>
+    <div class="container-xxl bg-white p-0">
+        <!-- Contact Start -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium mt-5 garamond fst-italic">
+                        Contact Us
+                    </h5>
+                    <h1 class="mb-5 garamond">Get In Touch!</h1>
+                </div>
+                <div></div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <p class="text-center mb-4 raleway">
+                                The contact form is currently inactive. Get
+                                a functional and working contact form with
+                                Ajax & PHP in a few minutes. Just copy and
+                                paste the files, add a little code and
+                                you're done.
+                                <a href="./home.html" class="text-decoration-none text-black"
+                                    >Download Now</a
+                                >.
+                            </p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="name"
+                                                placeholder="Your Name"
+                                            />
+                                            <label for="name"
+                                                >Your Name</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                            type="email"
+                                                class="form-control"
+                                                id="email"
+                                                placeholder="Your Email"
+                                                />
+                                                <label for="email"
+                                                >Your Email</label
+                                                >
+                                            </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input
+                                            type="text"
+                                                class="form-control"
+                                                id="subject"
+                                                placeholder="Subject"
+                                            />
+                                            <label for="subject"
+                                                >Subject</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control"
+                                                placeholder="Leave a message here"
+                                                id="message"
+                                                style="height: 150px"
+                                                ></textarea>
+                                                <label for="message"
+                                                >Message</label
+                                                >
+                                            </div>
+                                    </div>
+                                    <div class="col-12 text-center my-5">
+                                        <button
+                                            class="btn text-white bg-black rounded-pill py-3 px-5"
+                                            type="submit"
+                                        >
+                                        Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map mb-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.6266219522545!2d3.2734190738467346!3d6.693082821171806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9775a9f990df%3A0xa4e4def18b27aaee!2s11%20Adewuyi%20St%2C%20Ifako-Ijaiye%20101232%2C%20Lagos!5e0!3m2!1sen!2sng!4v1697429786532!5m2!1sen!2sng" 
+            width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <section id="footer">
+      <!-- Footer Start -->
+      <div class="container-fluid px-5 ">
+        <div class="row">
+          <div class="col-lg-6 mb-4 " >
+            <h1 class="fw-bold garamond display-5 mb-4 text-md-center text-sm-center">Give your inbox a <i class="fw-lighter">refresh.</i></h1>
+            <h4 class="raleway mb-3 text-lg-left w-lg-75 text-md-center">10% off your first order when you sign up for our plastic-free and spam-free emails.</h4>
+          </div>
+          <div class="col-lg-6 mb-4 pt-5 text-md-center " >
+            <span class="pt-5 w-100 mb-5 " >
+              <input type="text" placeholder="Enter email address" class="px-3 py-2 w-50 garamond me-4 border-0"><button class="px-4 py-2 text-white bg-black">Subscribe</button>
+            <div class="d-flex pt-5 gap-3 justify-content-md-center">
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-twitter display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-facebook display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://instagram.com/thriftbycesca?igshid=OGY3MTU3OGY1Mw=="><i class='bx bxl-instagram display-5'></i></a>
+              <a class="btn btn-outline-black rounded-5 btn-social" href="https://www.linkedin.com/in/francescaezih-chiekwugo-aca-a69063221"><i class='bx bxl-linkedin display-5'></i></a>
+            </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class=" px-3 border border-black border-1 opacity-75 mb-5"></div>
+      <div class="container-fluid px-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row w-100">
+              <div class="col-lg-4 col-md-6 ">
+                <h1 class="py-3 poppins">SHOP</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">All Products</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Oral Care</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Personal Care</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Bundles</p></a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h1 class="py-3 poppins">ABOUT</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">Ingredients</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Sustainability</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">About Us</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">FAQ</p></a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h1 class="py-3 poppins">MORE</h1>
+                <a href="" class="text-decoration-none"><p class="text-black">Wholesale</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black">Store Locator</p></a>
+                <a href="" class="text-decoration-none"><p class="text-black"></p></a>
+                <a href="" class="text-decoration-none"><p class="text-black"></p></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6 d-flex justify-content-between align-items-center py-5">
+            <a href=""><i class='bx bx-certification display-1 text-black'></i></a>
+            <a href=""><i class='bx bx-buildings display-1 text-black'></i></a>
+            <a href=""><i class='bx bxl-mailchimp display-1 text-black'></i></a>
+            <a href=""><i class='bx bx-calendar display-1 text-black'></i></a>
+          </div>
+        </div>
+      </div>
+      <div class=" px-3 border border-black border-1 opacity-75 mb-5"></div>
+       <div class="container text-center">
+        <h2 class="raleway fs-5">© 2023 Bite. All Rights Reserved.</h2>
+        <a href=" " class="text-decoration-none text-black mb-5">hello@bitetoothpastebits.com</a>
+        <div class=" raleway d-flex justify-content-between align-items-center my-5">
+          <a href="" class="text-decoration-none text-black"><p>Privacy policy</p></a>
+          <a href="" class="text-decoration-none text-black"><p>Terms of Service</p></a>
+          <a href="" class="text-decoration-none text-black"><p>Shopping policy</p></a>
+        </div>
+       </div>
+      <!-- Footer End -->
+    </section>
+    <section class="libraries">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+      crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+          new PureCounter();
+      </script>
+      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    
+        <script src="./js-folder/swiper.js"></script>
+    </section>
+  </body>
+</html>
